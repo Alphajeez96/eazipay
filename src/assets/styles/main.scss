@@ -1,0 +1,12 @@
+@import './base';
+@import './fonts';
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: 'Aeonik';
+}
+
+.app-container {
+  @apply w-[70%] mx-auto;
+}

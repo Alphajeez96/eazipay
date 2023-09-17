@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Mellow';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Mellow'),
+    url('../fonts/Mellow/Mellow-Regular.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Mellow';
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local('Mellow'),
+    url('../fonts/Mellow/Mellow-Medium.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Mellow';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('Mellow'),
+    url('../fonts/Mellow/Mellow-SemiBold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Mellow';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Mellow'),
+    url('../fonts/Mellow/Mellow-Bold.otf') format('otf');
+}
