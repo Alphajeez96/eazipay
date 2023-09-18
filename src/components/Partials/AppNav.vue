@@ -1,5 +1,5 @@
 <template>
-  <nav class="app-container">
+  <nav>
     <img
       src="@/assets/images/logo.svg"
       alt="eazipay"
@@ -29,7 +29,7 @@ const buttonClasses: string = 'h-10 w-[168px] px-2'
 
 <style lang="scss" scoped>
 nav {
-  @apply flex h-[5.125rem] items-center justify-between;
+  @apply flex h-[5.125rem] items-center justify-between bg-[white] z-50 fixed w-full px-48;
 
   ul {
     @apply flex items-center justify-between;

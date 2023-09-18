@@ -1,20 +1,57 @@
 <template>
   <div>
+    <!-- Hero Section Here -->
     <section class="hero-bg">
       <Hero />
+    </section>
+
+    <!-- Solutions Section Here -->
+    <section class="business-bg">
+      <div class="background-holder">
+        <img src="@/assets/images/business-gradient.svg" alt="business-gradient" />
+      </div>
+      <Solutions />
+    </section>
+
+    <!-- Works Section Here -->
+    <section>
+      <Works />
+    </section>
+
+    <!-- Subscribe Section Here -->
+    <section class="subscribe-bg">
+      <div class="absolute left-[156px]">
+        <img src="@/assets/images/subscribe-dots.svg" alt="dots" />
+      </div>
+
+      <Subscribe />
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
 import Hero from '@/widgets/Home/Hero.vue'
+import Works from '@/widgets/Home/Works.vue'
+import Subscribe from '@/widgets/Home/Subscribe.vue'
+import Solutions from '@/widgets/Home/Solutions.vue'
 </script>
 
 <style lang="scss" scoped>
 .hero-bg {
-  @apply bg-cover bg-no-repeat bg-center;
-  background-image: url('../assets/images/gradient.svg');
+  @apply bg-cover bg-no-repeat h-[950px];
+  background-image: url('../assets/images/hero-gradient.svg');
+}
 
-  height: 50vh;
+.business-bg {
+  @apply relative;
+
+  .background-holder {
+    @apply absolute -top-16;
+  }
+}
+
+.subscribe-bg {
+  @apply bg-cover bg-no-repeat relative h-[790px];
+  background-image: url('../assets/images/subscribe-gradient.svg');
 }
 </style>
