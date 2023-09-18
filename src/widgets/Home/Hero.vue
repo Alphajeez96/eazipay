@@ -14,6 +14,7 @@
       </p>
 
       <Button
+        id="hero-btn"
         text="Start Using Free, Forever"
         classes="h-14 w-[272px] mt-6"
         custom-styles="font-size: 1rem"

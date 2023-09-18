@@ -24,7 +24,7 @@
 
 <script setup lang="ts">
 interface Button {
-  text: string
+  text?: string
 }
 
 withDefaults(defineProps<Button>(), {

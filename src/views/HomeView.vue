@@ -20,17 +20,25 @@
 
     <!-- Subscribe Section Here -->
     <section class="subscribe-bg">
-      <div class="absolute left-[156px]">
+      <aside class="absolute left-[156px]">
         <img src="@/assets/images/subscribe-dots.svg" alt="dots" />
-      </div>
-
+      </aside>
       <Subscribe />
+    </section>
+
+    <!-- Deom Section Here -->
+    <section class="relative">
+      <aside class="absolute top-[98px]">
+        <img src="@/assets/images/demo-dots.svg" alt="dots" />
+      </aside>
+      <Demo />
     </section>
   </div>
 </template>
 
 <script setup lang="ts">
 import Hero from '@/widgets/Home/Hero.vue'
+import Demo from '@/widgets/Home/Demo.vue'
 import Works from '@/widgets/Home/Works.vue'
 import Subscribe from '@/widgets/Home/Subscribe.vue'
 import Solutions from '@/widgets/Home/Solutions.vue'
