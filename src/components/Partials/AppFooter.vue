@@ -55,7 +55,7 @@
 
         <div class="relative mt-3">
           <input type="text" class="contact-input" placeholder="Your email address" />
-          <div class="absolute right-[14px] top-3">
+          <div class="send-icon">
             <IconSend />
           </div>
         </div>
@@ -89,6 +89,15 @@ const getImageUrl = (icon: string) => {
   &::placeholder {
     @apply text-primary-gray text-sm;
     letter-spacing: 0.25px;
+  }
+}
+
+.send-icon {
+  @apply absolute right-[14px] top-3 cursor-pointer;
+  transition: 0.15s ease;
+
+  &:hover {
+    transform: rotate(48deg);
   }
 }
 </style>
