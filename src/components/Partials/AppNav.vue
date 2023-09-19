@@ -14,7 +14,13 @@
 
     <!-- Action Buttons Here -->
     <div class="flex">
-      <Button id="login-btn" variant="secondary" text="Log in" :classes="`${buttonClasses} mr-6`" />
+      <Button
+        id="login-btn"
+        variant="secondary"
+        text="Log in"
+        :classes="`${buttonClasses} mr-6`"
+        @click="$router.push('/dashboard')"
+      />
       <Button id="register-btn" text="Register" :classes="buttonClasses" />
     </div>
   </nav>

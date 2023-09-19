@@ -23,7 +23,7 @@ interface Button {
   classes?: string
   customStyles?: string
   disabled?: boolean
-  variant?: 'primary' | 'secondary'
+  variant?: 'primary' | 'secondary' | 'tertiary'
 }
 
 const props = withDefaults(defineProps<Button>(), {
@@ -50,6 +50,10 @@ button {
 
   &.secondary {
     @apply bg-inherit border border-primary-green text-primary-green;
+  }
+
+  &.tertiary {
+    @apply text-primary-green bg-[#d9ebcd];
   }
 
   &:disabled {

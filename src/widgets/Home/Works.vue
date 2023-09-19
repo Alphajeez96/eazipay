@@ -4,3 +4,7 @@
     <p class="text-[1.75rem] text-primary-gray">Get started in 3 simple steps.</p>
   </div>
 </template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>

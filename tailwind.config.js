@@ -10,7 +10,6 @@ export default {
           gray: '#515251',
           red: '#EF4444'
         },
-
         secondary: {
           green: '#D9EBCD'
         }

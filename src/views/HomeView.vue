@@ -14,7 +14,7 @@
     </section>
 
     <!-- Works Section Here -->
-    <section>
+    <section class="hidden">
       <Works />
     </section>
 
